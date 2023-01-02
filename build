@@ -18,3 +18,10 @@ for file in $htmlfiles; do
     mkdir -p "dist/${file%/*}"
     cp $file "dist/$file"
 done
+
+assetfolders=$(find -name "assets" -not -path "./node_modules/*")
+
+for folder in $assetfolders; do
+    mkdir -p "dist/$folder"
+    cp -R "$folder/"* "dist/$folder"
+done
