@@ -3,7 +3,7 @@
 mdfiles=$(find -name "*.md" -not -path "./node_modules/*")
 
 for file in $mdfiles; do
-    marp $file
+    marp --html $file
 done
 
 if [ -d "dist" ]; then

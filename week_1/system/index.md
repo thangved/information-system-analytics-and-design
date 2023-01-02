@@ -67,6 +67,7 @@ Hệ thống là tập hợp các đối tượng, các thành phần có liên 
 **Hệ điều hành** là tập hợp các phần mềm hệ thống giúp quản lý tài nguyên của máy tính và cung cấp các _API_ để các ứng dụng hoặc người dùng có thể giao tiếp dễ dàng với phần cứng của máy tính.
 
 <div class="row">
+
 <div class="col">
 
 ![width:100px](./assets/images/Tux.svg) ![width:100px](./assets/images/ubuntu.gif)
