@@ -25,3 +25,6 @@ for folder in $assetfolders; do
     mkdir -p "dist/$folder"
     cp -R "$folder/"* "dist/$folder"
 done
+
+mv dist/src/* dist
+rm -rf dist/src
