@@ -5,6 +5,9 @@
   "repository": "git@github.com:thangved/information-system-analytics-and-design.git",
   "author": "Kim Minh Thang <thangved02@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "./build"
+  },
   "devDependencies": {
     "@marp-team/marp-cli": "^2.2.2"
   }
