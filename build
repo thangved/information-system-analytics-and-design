@@ -5,7 +5,7 @@ mdfiles=$(find -name "*.md" -not -path "./node_modules/*")
 
 echo "[ INFO ] Convert markdown files to html files"
 for file in $mdfiles; do
-    marp --html $file
+    marp --html $file --title "Phân tích thiết kế hệ thống thông tin"
 done
 
 echo "[ INFO ] Create dist directory"
