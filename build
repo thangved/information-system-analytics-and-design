@@ -1,8 +1,20 @@
 #! /bin/bash
 
-files=$(find -name "*.md" -not -path "./node_modules/*")
+mdfiles=$(find -name "*.md" -not -path "./node_modules/*")
 
-for file in $files; do
+for file in $mdfiles; do
     marp $file
-    rm $file
+done
+
+if [ -d "dist" ]; then
+    rm -rf dist
+fi
+
+mkdir dist
+
+htmlfiles=$(find -name "*.html" -not -path "./node_modules/*")
+
+for file in $htmlfiles; do
+    mkdir -p "dist/${file%/*}"
+    cp $file "dist/$file"
 done
