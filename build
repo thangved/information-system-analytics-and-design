@@ -1,7 +1,0 @@
-#! /bin/bash
-
-files=$(find -name "*.md" -not -path "./node_modules/*")
-
-for file in $files; do
-    marp $file
-done
