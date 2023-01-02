@@ -16,7 +16,7 @@ htmlfiles=$(find -name "*.html" -not -path "./node_modules/*")
 
 for file in $htmlfiles; do
     mkdir -p "dist/${file%/*}"
-    cp $file "dist/$file"
+    mv $file "dist/$file"
 done
 
 assetfolders=$(find -name "assets" -not -path "./node_modules/*")
