@@ -1,11 +1,13 @@
 #! /bin/bash
 
+npx sass src/styles/theme.scss src/styles/theme.css
+
 echo "[ INFO ] Find all files with name match *.md"
 mdfiles=$(find -name "*.md" -not -path "./node_modules/*")
 
 echo "[ INFO ] Convert markdown files to html files"
 for file in $mdfiles; do
-    marp --html $file --title "Phân tích thiết kế hệ thống thông tin"
+    marp --html $file --title "Phân tích thiết kế hệ thống thông tin" --theme src/styles/theme.css
 done
 
 echo "[ INFO ] Create dist directory"

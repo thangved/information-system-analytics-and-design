@@ -9,6 +9,7 @@
     "build": "./build"
   },
   "devDependencies": {
-    "@marp-team/marp-cli": "^2.2.2"
+    "@marp-team/marp-cli": "^2.2.2",
+    "highlight.js": "^11.7.0"
   }
 }

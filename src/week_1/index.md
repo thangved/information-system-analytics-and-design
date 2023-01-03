@@ -1,6 +1,5 @@
 ---
 marp: true
-theme: gaia
 backgroundColor: #fff
 _class: lead
 paginate: true
