@@ -1,34 +1,9 @@
 ---
 marp: true
-theme: gaia
-backgroundColor: #fff
 _class: lead
 paginate: true
-transition: slide-up
 header: Phân tích thiết kế hệ thống thông tin - Nhóm 1
 footer: Created by Minh Thang with **marpit**
-style: |
-  @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,500;1,700;1,900&display=swap');
-  * {
-    font-family: 'Raleway', sans-serif;
-  }
-  .row {
-      display: flex;
-  }
-  .col {
-    flex: 1;
-    padding: 10px;
-    align-items: center;
-    text-align: center;
-  }
-  @keyframes marp-outgoing-transition-slide-up {
-    from { transform: translateY(0%); }
-    to { transform: translateY(-100%); }
-  }
-  @keyframes marp-incoming-transition-slide-up {
-    from { transform: translateY(100%); }
-    to { transform: translateY(0%); }
-  }
 ---
 
 ![bg left:40%](./assets/images/img_1.jpg)
@@ -67,7 +42,7 @@ Hệ thống là tập hợp các đối tượng, các thành phần có liên 
 
 **Hệ mặt trời** là tập hợp các vật thể thiên văn quay xung quanh mặt trời.
 
-![width:500px](./assets/images/img_2.png)
+![bg left:40%](./assets/images/img_2.png)
 
 ---
 
