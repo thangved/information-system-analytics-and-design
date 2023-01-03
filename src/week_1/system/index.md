@@ -30,7 +30,7 @@ style: |
 
 ---
 
-## Nội dung
+## **Nội dung**
 
 1. Các khái niệm hệ thống
 1. Đặc điểm của hệ thống
@@ -40,7 +40,7 @@ style: |
 
 ---
 
-## Các khái niệm hệ thống
+## **Các khái niệm hệ thống (1)**
 
 Hệ thống là tập hợp các đối tượng, các thành phần có liên quan với nhau, tương tác với nhau theo những nguyên tắc, cơ chế nào đó cùng tồn tại trong một thể thống nhất.
 
@@ -48,13 +48,13 @@ Hệ thống là tập hợp các đối tượng, các thành phần có liên 
 
 ---
 
-## Các khái niệm hệ thống
+## **Các khái niệm hệ thống (2)**
 
 :fire: Tóm lại, hệ thống được hiểu là tập hợp các đối tượng có quan hệ hữu cơ với nhau, tác động chi phối lẫn nhau theo một cơ chế xác định, cùng cộng tác hoạt động theo các quy tắc nhất định để đạt được các mục tiêu đề ra.
 
 ---
 
-### Ví dụ về hệ thống
+### Ví dụ về hệ thống (1)
 
 **Hệ mặt trời** là tập hợp các vật thể thiên văn quay xung quanh mặt trời.
 
@@ -62,7 +62,7 @@ Hệ thống là tập hợp các đối tượng, các thành phần có liên 
 
 ---
 
-### Ví dụ về hệ thống
+### Ví dụ về hệ thống (2)
 
 **Hệ điều hành** là tập hợp các phần mềm hệ thống giúp quản lý tài nguyên của máy tính và cung cấp các _API_ để các ứng dụng hoặc người dùng có thể giao tiếp dễ dàng với phần cứng của máy tính.
 
@@ -93,7 +93,7 @@ MacOS :apple:
 
 ---
 
-## Đặc điểm của hệ thống
+## **Đặc điểm của hệ thống**
 
 Mỗi hệ thống đều có các đặc điểm sau:
 
@@ -104,15 +104,27 @@ Mỗi hệ thống đều có các đặc điểm sau:
 
 ---
 
-## Các kiểu quan hệ tương tác giữa các hệ thống
+## **Các kiểu quan hệ tương tác giữa các hệ thống (1)**
 
 - Kiểu quan hệ phân cách nhau: input -> :computer: -> output
-- Kiểu quan hệ bao hàm nhau: hệ thống này là thuộc hoặc chứa hệ thống kia.
-- Kiểu quan hệ giao nhau: các thành phần của hệ thống này cũng là thành phần của hệ thống khác.
+  ![](./assets/images/Ipo.png)
 
 ---
 
-## Phân loại hệ thống
+## **Các kiểu quan hệ tương tác giữa các hệ thống (2)**
+
+- Kiểu quan hệ bao hàm nhau: hệ thống này là thuộc hoặc chứa hệ thống kia.
+
+---
+
+## **Các kiểu quan hệ tương tác giữa các hệ thống (3)**
+
+- Kiểu quan hệ giao nhau: các thành phần của hệ thống này cũng là thành phần của hệ thống khác.
+  ![width:400px](./assets/images/Input_Output_Main.png)
+
+---
+
+## **Phân loại hệ thống**
 
 - Hệ thống mở: là hệ thống có tính xác suất trong đó đầu vào, đầu ra không thể xác định nhưng có thể dự đoán được.
 - Hệ thống đóng: là hệ thống có thể đoán trước kết quả đầu ra nếu biết đầu vào.
@@ -121,7 +133,7 @@ Mỗi hệ thống đều có các đặc điểm sau:
 
 ---
 
-## Các khái niệm liên quan đến hệ thống
+## **Các khái niệm liên quan đến hệ thống**
 
 - Một hệ thống: một hệ thống thường bao gồm nhiều thành phần mà ta thường gọi là hệ thống con (subsystems), mỗi hệ thống con đảm nhận một tác vụ nào đó trong hệ thống lớn mà nó là thành phần.
 - Môi trường: là những thứ xung quanh hệ thống bao gồm con người, phương tiện, chính sách...
