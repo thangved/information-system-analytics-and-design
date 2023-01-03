@@ -4,6 +4,7 @@ theme: gaia
 backgroundColor: #fff
 _class: lead
 paginate: true
+transition: slide-up
 header: Phân tích thiết kế hệ thống thông tin - Nhóm 1
 footer: Created by Minh Thang with **marpit**
 style: |
@@ -19,6 +20,14 @@ style: |
     padding: 10px;
     align-items: center;
     text-align: center;
+  }
+  @keyframes marp-outgoing-transition-slide-up {
+    from { transform: translateY(0%); }
+    to { transform: translateY(-100%); }
+  }
+  @keyframes marp-incoming-transition-slide-up {
+    from { transform: translateY(100%); }
+    to { transform: translateY(0%); }
   }
 ---
 
@@ -114,6 +123,7 @@ Mỗi hệ thống đều có các đặc điểm sau:
 ## **Các kiểu quan hệ tương tác giữa các hệ thống (2)**
 
 - Kiểu quan hệ bao hàm nhau: hệ thống này là thuộc hoặc chứa hệ thống kia.
+  ![width:600px](./assets/images/computer_system.gif)
 
 ---
 
@@ -128,6 +138,7 @@ Mỗi hệ thống đều có các đặc điểm sau:
 
 - Hệ thống mở: là hệ thống có tính xác suất trong đó đầu vào, đầu ra không thể xác định nhưng có thể dự đoán được.
 - Hệ thống đóng: là hệ thống có thể đoán trước kết quả đầu ra nếu biết đầu vào.
+
 - Các hệ thống tự nhiên: là các hệ thống không do con người tạo ra
 - Các hệ thống do con người tạo ra.
 
