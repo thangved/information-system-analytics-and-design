@@ -5,9 +5,13 @@ npx sass src/styles/theme.scss src/styles/theme.css
 echo "[ INFO ] Find all files with name match *.md"
 mdfiles=$(find -name "*.md" -not -path "./node_modules/*")
 
-echo "[ INFO ] Convert markdown files to html files"
+echo "[ INFO ] Convert markdown files to html & pptx files"
 for file in $mdfiles; do
     marp --html --pptx --allow-local-files $file --title "Phân tích thiết kế hệ thống thông tin" --theme src/styles/theme.css
+done
+
+for file in $mdfiles; do
+    marp --html --allow-local-files $file --title "Phân tích thiết kế hệ thống thông tin" --theme src/styles/theme.css
 done
 
 echo "[ INFO ] Create dist directory"
@@ -34,7 +38,7 @@ done
 
 pptxfiles=$(find -name "*.pptx" -not -path "./node_modules/*")
 
-echo "[ INFO ] Move html files to dist directory"
+echo "[ INFO ] Move pptx files to dist directory"
 
 for file in $pptxfiles; do
     echo -e "\t[ TASK ] Create directory dist/${file%/*}"
