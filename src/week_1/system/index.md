@@ -121,7 +121,7 @@ Mỗi hệ thống đều có các đặc điểm sau:
 
 ## **Các khái niệm liên quan đến hệ thống**
 
-- Một hệ thống: một hệ thống thường bao gồm nhiều thành phần mà ta thường gọi là hệ thống con (subsystems), mỗi hệ thống con đảm nhận một tác vụ nào đó trong hệ thống lớn mà nó là thành phần.
+- Một hệ thống: một hệ thống thường bao gồm nhiều thành phần mà ta thường gọi là hệ thống con (subsystems), mỗi hệ thống con đảm nhận một tác vụ nào đó trong hệ thống lớn.
 - Môi trường: là những thứ xung quanh hệ thống bao gồm con người, phương tiện, chính sách...
 - Biên hay giới hạn: là chu vi hay đường ranh giữa hệ thống với môi trường bên ngoài
-  ...
+- Đầu vào, đầu ra.
