@@ -7,7 +7,7 @@ mdfiles=$(find -name "*.md" -not -path "./node_modules/*")
 
 echo "[ INFO ] Convert markdown files to html files"
 for file in $mdfiles; do
-    marp --html $file --title "Phân tích thiết kế hệ thống thông tin" --theme src/styles/theme.css
+    marp --html --pptx --allow-local-files $file --title "Phân tích thiết kế hệ thống thông tin" --theme src/styles/theme.css
 done
 
 echo "[ INFO ] Create dist directory"
@@ -26,6 +26,17 @@ htmlfiles=$(find -name "*.html" -not -path "./node_modules/*")
 echo "[ INFO ] Move html files to dist directory"
 
 for file in $htmlfiles; do
+    echo -e "\t[ TASK ] Create directory dist/${file%/*}"
+    mkdir -p "dist/${file%/*}"
+    echo -e "\t[ TASK ] Move $file to dist/$file"
+    mv $file "dist/$file"
+done
+
+pptxfiles=$(find -name "*.pptx" -not -path "./node_modules/*")
+
+echo "[ INFO ] Move html files to dist directory"
+
+for file in $pptxfiles; do
     echo -e "\t[ TASK ] Create directory dist/${file%/*}"
     mkdir -p "dist/${file%/*}"
     echo -e "\t[ TASK ] Move $file to dist/$file"
