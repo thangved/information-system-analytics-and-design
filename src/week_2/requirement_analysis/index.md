@@ -53,9 +53,9 @@ Ví dụ:
 
 ---
 
-![](./assets/table-reqq.png)
-
 _Nguồn [altexsoft.com](https://www.altexsoft.com/blog/business/functional-and-non-functional-requirements-specification-and-types/)_
+
+![](./assets/table-reqq.png)
 
 ---
 
