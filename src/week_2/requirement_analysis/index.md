@@ -8,9 +8,9 @@ footer: Created by Minh Thang with **marpit**
 
 ![bg left:40%](./assets/Requriment-Analysis.png)
 
-# **Hệ thống**
+# **Phân tích yêu cầu**
 
-(System)
+(Requirement analysis)
 
 ---
 

@@ -8,4 +8,4 @@ footer: Created by Minh Thang with **marpit**
 
 # **Tuần 1**
 
-- [Phân tích yêu cầu](./requirement_analytics/)
+- [Phân tích yêu cầu](./requirement_analysis/)
