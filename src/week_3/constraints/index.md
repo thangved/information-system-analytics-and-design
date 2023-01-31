@@ -6,7 +6,7 @@ header: Phân tích thiết kế hệ thống thông tin - Nhóm 1
 footer: Created by Minh Thang with **marpit**
 ---
 
-![bg left:40%](./assets/Requriment-Analysis.png)
+![bg left](./assets/0712-Bad_Practices_in_Database_Design_-_Are_You_Making_These_Mistakes_Dan_Social-754bc73011e057dc76e55a44a954e0c3.png)
 
 # **Ràng buộc trong cơ sở dữ liệu**
 
@@ -24,9 +24,9 @@ footer: Created by Minh Thang with **marpit**
 
 ## **Ràng buộc là gì?**
 
-![bg left](./assets/Constraint-Database-metamodel.png)
-
 Ràng buộc (Constraint) là những quy tắc được áp dụng trên các cột dữ liệu, trên bảng. Được sử dụng để kiểm tra tính hợp lệ của dữ liệu vào, đảm bảo tính chính xác, tính toàn vẹn của dữ liệu.
+
+![bg right](./assets/cafedev_sql_new.png)
 
 ---
 
