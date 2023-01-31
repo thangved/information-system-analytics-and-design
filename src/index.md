@@ -10,3 +10,4 @@ footer: Created by Minh Thang with **marpit**
 
 - [Tuần 1](./week_1)
 - [Tuần 2](./week_2)
+- [Tuần 3](./week_3)

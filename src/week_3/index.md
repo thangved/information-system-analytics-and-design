@@ -8,4 +8,4 @@ footer: Created by Minh Thang with **marpit**
 
 # **Tuần 3**
 
-- [Phân tích yêu cầu](./constraints/)
+- [Ràng buộc](./constraints/)
