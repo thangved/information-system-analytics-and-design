@@ -24,9 +24,9 @@ footer: Created by Minh Thang with **marpit**
 
 ## **Ràng buộc là gì?**
 
-Ràng buộc (Constraint) là những quy tắc được áp dụng trên các cột dữ liệu, trên bảng. Được sử dụng để kiểm tra tính hợp lệ của dữ liệu vào, đảm bảo tính chính xác, tính toàn vẹn của dữ liệu.
+![bg left](./assets/cafedev_sql_new.png)
 
-![bg right](./assets/cafedev_sql_new.png)
+Ràng buộc (Constraint) là những quy tắc được áp dụng trên các cột dữ liệu, trên bảng. Được sử dụng để kiểm tra tính hợp lệ của dữ liệu vào, đảm bảo tính chính xác, tính toàn vẹn của dữ liệu.
 
 ---
 
