@@ -36,7 +36,7 @@ Ràng buộc (Constraint) là những quy tắc được áp dụng trên các c
 | ------------- | ---------------------------------------------------------- |
 | NOT NULL      | Đảm bảo cột không nhận giá trị null(phải có giá trị)       |
 | DEFAULT       | Gán giá trị mặc định cho cột trong                         |
-| UNIQUE        | Đảm bảo dữ liệu ủa cột là duy nhất                         |
+| UNIQUE        | Đảm bảo dữ liệu của cột là duy nhất                        |
 | PRIMARY KEY   | Thiết lập khóa chính trên bảng                             |
 | FOREIGN KEY   | Thiết lập khóa ngoại của bảng, tham chiếu đến bảng khác    |
 | CHECK         | Đảm bảo giá trị của cột phải thỏa mãn một điều kiện nào đó |
@@ -83,11 +83,12 @@ create table users
 Tạo bảng `todos` (Câu truy vấn thực hiện trên mariadb:10)
 
 ```sql
-create table todos(
-    id int not null primary key auto_increment,
+create table todos
+(
+    id      int not null primary key auto_increment,
     user_id int not null,
     content varchar(300) default 'Replace your job!',
-    foreign key (user_id) references users(id)
+    foreign key (user_id) references users (id)
 );
 ```
 
